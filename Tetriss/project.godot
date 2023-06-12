@@ -1,0 +1,34 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="Tetriss"
+run/main_scene="res://Sahneler/Main.tscn"
+config/icon="res://icon.png"
+
+[debug]
+
+settings/fps/force_fps=30
+
+[display]
+
+window/size/width=360
+window/size/height=720
+window/size/resizable=false
+
+[physics]
+
+common/physics_fps=30
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
